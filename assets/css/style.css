@@ -273,9 +273,11 @@
     justify-content: center;
     margin-top: 10px;
 }
-.pb50{
+
+.pb50 {
     padding-bottom: 50px;
 }
+
 .pb10 {
     padding-bottom: 9px;
     padding-top: 9px;
@@ -793,6 +795,19 @@ button {
     padding-left: 27px;
     padding-top: 13px;
 }
+
+.foottxt {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
 @media(max-width:992px) {
     label[for="menubar"] {
         display: flex;
@@ -894,12 +909,15 @@ button {
     .card1 {
         border-right: 0px;
     }
-    .logo1{
+
+    .logo1 {
         font-size: 36px;
     }
-.head1{
-font-size: 64px;
-}
+
+    .head1 {
+        font-size: 64px;
+    }
+
     .line2::after {
         content: "";
         position: absolute;
@@ -1042,19 +1060,4 @@ font-size: 64px;
         padding-right: 12px;
     }
 
-}
-
-
-
-
-.foottxt {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
 }
